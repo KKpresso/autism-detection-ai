@@ -8,6 +8,7 @@ An AI-powered application for early autism detection using graph representation 
 - Deep neural network for autism detection
 - User-friendly web interface for medical professionals
 - Integration with ABIDE dataset
+- Using AI API's (ChatGPT and Deepseek like models to train and create a chat interface for users)
 
 ## Setup
 
