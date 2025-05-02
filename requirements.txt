@@ -15,3 +15,7 @@ openai>=0.27.0  # for GPT integration
 pydantic>=2.0.0  # for request/response validation
 python-multipart>=0.0.6  # for handling file uploads
 gunicorn>=20.1.0  # for production deployment
+nilearn>=0.10.0  # for advanced fMRI preprocessing
+scipy>=1.9.0  # for signal processing
+scikit-optimize>=0.9.0  # for Bayesian optimization
+joblib>=1.2.0  # for parallel processing
