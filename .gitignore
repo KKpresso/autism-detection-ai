@@ -25,6 +25,35 @@ data/*
 !data/.gitkeep
 models/*
 !models/.gitkeep
+cache/*
+!cache/.gitkeep
 
-# Logs
+# Sensitive information
+*.pem
+*.key
+*.crt
+*.env
+config/*_config.json
+!config/oauth_config.json.example
+
+# Logs and metrics
 *.log
+logs/
+prometheus_data/
+grafana_data/
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
